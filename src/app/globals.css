@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset margin and padding for body, html, nav, and #header */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-image: url('https://static.wixstatic.com/media/11062b_42c822f0fb664fc686c6ecdb8148b856~mv2.jpg/v1/fill/w_3360,h_1000,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_42c822f0fb664fc686c6ecdb8148b856~mv2.jpg');
+  background-size: cover; /* Cover ensures the background image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  height: 60vh; /* Use viewport height to make the section responsive */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0dad0;
+}
+
+.header-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 2rem; /* Responsive padding using rem units */
+  border-radius: 10px;
+  max-width: 90%; /* Ensures the text container doesn't overflow on small screens */
+  font-size: 1.5rem; /* Adjust the font size to be responsive */
+}
+
+/* Import Google Fonts */
+
+#bio-img {
+  border: 5px solid #5c786f;
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  /* Center image and add space below */
+}
+
+.bio-text {
+  /* Slightly larger font for readability */
+  color: #5c786f;
+  line-height: 1.8;
+  max-width: 800px; /* Keeps the text block from becoming too wide */
+  margin: 0 auto;
+  padding: 0 2rem; /* Add padding to ensure text doesn't touch the edges */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  #header {
+    height: 40vh; /* Reduce header height on smaller screens */
+  }
+
+  .header-text {
+    font-size: 1.2rem; /* Smaller font size for header text */
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .bio-text {
+    font-size: 1rem; /* Adjust font size for readability */
+    padding: 0 1rem; /* Reduce padding for smaller screens */
+  }
+
+  #bio-img {
+    width: 80%; /* Make the image width responsive */
+  }
+}
