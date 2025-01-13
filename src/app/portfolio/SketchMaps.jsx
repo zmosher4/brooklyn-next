@@ -8,16 +8,22 @@ export default function SketchMaps() {
       <div className="flex items-center justify-center m-8 font-bold text-4xl">
         Sketch Maps
       </div>
-      <div className="flex justify-around m-4 font-bold  text-xl">
+      <div className="flex flex-col lg:flex-row justify-around m-4 font-bold text-xl text-center gap-4">
         <div>Sketch Map 1: Mapping Power Relations with Drinking Water</div>
         <div>Sketch Map 2: Hauz Khas Water Project</div>
       </div>
-      <div className="flex justify-between m-4 space-x-4">
-        <Image className="object-cover h-[900px] w-full" src={mapimg2} />
-
-        <Image className="object-cover h-[900px] w-full" src={mapimg3} />
+      <div className="flex flex-col lg:flex-row justify-between m-4 gap-4">
+        <Image
+          className="object-cover h-[400px] sm:h-[600px] md:h-[900px] w-full"
+          src={mapimg2}
+        />
+        <Image
+          className="object-cover h-[300px] sm:h-[600px] md:h-[900px] w-full"
+          src={mapimg3}
+        />
       </div>
-      <div className="flex justify-between m-16 text-md space-x-48 leading-relaxed">
+
+      <div className="flex justify-between sm:m-4 m-16 text-md space-x-48 leading-relaxed">
         <div>
           Sketch Map 1 depicts power relations between centralized institutions
           and decentralized experiences which alter drinking water access. To
