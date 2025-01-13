@@ -10,7 +10,7 @@ export default function MapHeader() {
   const mapNums = ['Map 1', 'Map 2', 'Map 3', 'Map 4', 'Map 5'];
   return (
     <>
-      <div className="m-4 flex">
+      <div className="flex">
         <div className="relative w-[50%]">
           <Image src={map1} alt="" className="object-cover" />
           <div className="absolute inset-0 flex justify-center items-center text-shadow-md font-bold text-6xl">
