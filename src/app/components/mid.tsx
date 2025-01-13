@@ -8,7 +8,7 @@ const MiddleSection = () => {
   return (
     <div className="lg:block lg:w-[100%]">
       <div className="bg-[#30574e]">
-        <div className="flex justify-center items-center h-screen m-10 mt-10 space-x-4">
+        <div className="flex justify-center items-center min-h-[700px] m-10 mt-10 space-x-4">
           {/* Image 1 */}
           <div className="xl:h-[600px] xl:w-[500px] md:h-[400px] md:w-[300px] lg:h-[400px] lg:w-[300px]">
             <Image
