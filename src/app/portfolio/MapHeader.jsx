@@ -12,7 +12,7 @@ export default function MapHeader() {
     }
   };
   return (
-    <div className="w-full border-t-2 border-[#30574e]">
+    <div className="w-full border-t-[.5px] border-[#30574e]">
       <div className="flex flex-wrap">
         <div className="relative w-full md:w-[50%]">
           <Image
