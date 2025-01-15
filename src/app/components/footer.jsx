@@ -47,6 +47,9 @@ export default function Footer() {
           Citizenship and Public Affairs{' '}
         </div>
         <div> 048 Eggers Hall Syracuse, New York 13244</div>
+        <div className="pt-32 text-nowrap text-xs md:text-lg pr-16">
+          Webiste made by Zach Mosher | zmosher4@gmail.com
+        </div>
       </div>
     </div>
   );
