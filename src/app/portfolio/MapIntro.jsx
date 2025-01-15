@@ -1,6 +1,6 @@
-export default function MapIntro() {
+export default function MapIntro({ id }) {
   return (
-    <div className="w-full bg-[#30574e]">
+    <div id={id} className="w-full bg-[#30574e]">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
           <div className="text-[#E0DAD0] text-center text-4xl mb-8">
