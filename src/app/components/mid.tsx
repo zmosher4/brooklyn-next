@@ -8,38 +8,44 @@ const MiddleSection = () => {
   return (
     <div className="lg:block lg:w-[100%]">
       <div className="bg-[#30574e]">
-        <div className="flex justify-center items-center min-h-[700px] m-10 mt-10 space-x-4">
+        <div className="flex flex-col md:flex-row justify-center items-center min-h-[700px] m-10 mt-10 md:space-x-4 space-y-4 md:space-y-0">
           {/* Image 1 */}
-          <div className="xl:h-[600px] xl:w-[500px] md:h-[400px] md:w-[300px] lg:h-[400px] lg:w-[300px]">
+          <div className="h-[400px] w-[300px] md:h-[500px] md:w-[400px] xl:h-[600px] xl:w-[500px] md:mt-0 mt-4">
             <Image
-              className="object-cover h-full w-full"
+              className="object-cover w-full h-full"
               src={travel1}
               alt="travel1"
             />
           </div>
 
           {/* Image 2 */}
-          <div className="xl:h-[600px] xl:w-[500px] md:h-[400px] md:w-[300px] lg:h-[400px] lg:w-[300px]">
+          <div className="h-[400px] w-[300px] md:h-[500px] md:w-[400px] xl:h-[600px] xl:w-[500px]">
             <Image
-              className="object-cover h-full w-full"
+              className="object-cover w-full h-full"
               src={travel2}
               alt="travel2"
             />
           </div>
 
           {/* Image 3 */}
-          <div className="xl:h-[600px] xl:w-[500px] md:h-[400px] md:w-[300px] lg:h-[400px] lg:w-[300px]">
+          <div className="h-[400px] w-[300px] md:h-[500px] md:w-[400px] xl:h-[600px] xl:w-[500px]">
             <Image
-              className="object-cover h-full w-full"
+              className="object-cover w-full h-full"
               src={travel3}
               alt="travel3"
             />
           </div>
         </div>
 
+        {/* Fourth image */}
+
         <div className="xl:pt-32">
-          <div className="h-96 xl:w-[1100px] w-[400px] sm:w-[500px] mx-auto flex justify-center items-center">
-            <Image src={travel4} alt="travel4" />
+          <div className="h-96 xl:w-[1100px] lg:w-[900px] md:w-[700px] w-[400px] sm:w-[500px] mx-auto flex justify-center items-center">
+            <Image
+              className="object-cover w-full h-auto"
+              src={travel4}
+              alt="travel4"
+            />
           </div>
         </div>
 
