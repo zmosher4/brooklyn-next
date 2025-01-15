@@ -9,7 +9,7 @@ export default function Map4({ id }) {
       </div>
       <div className="flex items-center justify-center m-4">
         <Image
-          className="object-fit h-[800px] w-[900px] border-4 border-[#30574e]"
+          className="object-fit sm:h-[800px] w-[900px] border-4 border-[#30574e]"
           src={mapimg5}
           alt="map 4"
         />

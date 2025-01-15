@@ -10,22 +10,28 @@ export default function SketchMaps({ id }) {
       </div>
       <div className="flex lg:flex-row flex-col justify-around m-4 font-bold text-xl text-center gap-4">
         <div>Sketch Map 1: Mapping Power Relations with Drinking Water</div>
-        <div>Sketch Map 2: Hauz Khas Water Project</div>
+        <div className="lg:block hidden">
+          Sketch Map 2: Hauz Khas Water Project
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row justify-between m-4 gap-4">
         <Image
-          className="object-cover h-[400px] sm:h-[600px] md:h-[900px] w-full"
+          className="object-cover sm:h-[600px] md:h-[900px] w-full"
           src={mapimg2}
           alt="sketch 1"
         />
+        <div className="lg:hidden text-center font-bold">
+          Sketch Map 2: Hauz Khas Water Project
+        </div>
+
         <Image
-          className="object-cover h-[300px] sm:h-[600px] md:h-[900px] w-full"
+          className="object-cover sm:h-[600px] md:h-[900px] w-full"
           src={mapimg3}
           alt="sketch 2"
         />
       </div>
 
-      <div className="flex lg:flex-row flex-col  justify-between sm:m-4 m-16 text-md lg:space-x-48 leading-relaxed">
+      <div className="flex lg:flex-row flex-col  justify-between sm:m-16 m-8 text-md lg:space-x-48 leading-relaxed">
         <div>
           Sketch Map 1 depicts power relations between centralized institutions
           and decentralized experiences which alter drinking water access. To
@@ -45,7 +51,7 @@ export default function SketchMaps({ id }) {
           complex relations between elements of water access are especially when
           caught up in processes, flows, and a network of power.
         </div>
-        <div>
+        <div className="sm:mt-0 mt-4">
           Sketch Map 2 depicts one narrow story of water access related to a
           project run by a local advocacy group in Delhi. It shows the
           progression of Hauz Khas lake situated in South-West Delhi which since

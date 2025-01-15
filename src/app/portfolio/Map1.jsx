@@ -10,7 +10,7 @@ export default function Map1({ id }) {
       </div>
       <div className="flex items-center justify-center m-4">
         <Image
-          className="object-cover h-[800px] w-[600px] border-4 border-[#30574e]"
+          className="sm:object-cover sm:h-[800px] w-[600px] border-4 border-[#30574e]"
           src={mapimg4}
           alt="map 1"
         />
