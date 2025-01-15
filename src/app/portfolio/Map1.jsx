@@ -12,6 +12,7 @@ export default function Map1({ id }) {
         <Image
           className="object-cover h-[800px] w-[600px] border-4 border-[#30574e]"
           src={mapimg4}
+          alt="map 1"
         />
       </div>
       <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:my-20 sm:m-4 text-xl">

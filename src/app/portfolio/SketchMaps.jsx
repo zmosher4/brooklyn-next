@@ -16,10 +16,12 @@ export default function SketchMaps({ id }) {
         <Image
           className="object-cover h-[400px] sm:h-[600px] md:h-[900px] w-full"
           src={mapimg2}
+          alt="sketch 1"
         />
         <Image
           className="object-cover h-[300px] sm:h-[600px] md:h-[900px] w-full"
           src={mapimg3}
+          alt="sketch 2"
         />
       </div>
 

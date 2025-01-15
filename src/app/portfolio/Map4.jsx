@@ -5,12 +5,13 @@ export default function Map4({ id }) {
   return (
     <div id={id} className="m-4">
       <div className="text-center text-[#30574e] font-bold text-2xl m-4">
-        Map 4: Mapping the "Miracle Water Village"
+        Map 4: Mapping the &quot;Miracle Water Village&quot;
       </div>
       <div className="flex items-center justify-center m-4">
         <Image
           className="object-fit h-[800px] w-[900px] border-4 border-[#30574e]"
           src={mapimg5}
+          alt="map 4"
         />
       </div>
       <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:my-20 sm:m-4 text-xl">

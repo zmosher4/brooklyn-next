@@ -17,12 +17,16 @@ export default function Footer() {
       },
       { threshold: 0.5 }
     );
-    if (fadeInRef.current) {
-      observer.observe(fadeInRef.current);
+
+    const currentRef = fadeInRef.current; // Capture the ref value in a variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
+
     return () => {
-      if (fadeInRef.current) {
-        observer.unobserve(fadeInRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the captured variable in cleanup
       }
     };
   }, []);
