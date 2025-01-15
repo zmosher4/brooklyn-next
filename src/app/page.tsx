@@ -22,7 +22,7 @@ const Home = () => {
           impacted livelihoods in India. By building on the expansive existing
           literature on development, water, political ecology, and economy I
           seek to understand what international discourse and power dynamics
-          truly mean for livelihoods. You can find my CV here.
+          truly mean for livelihoods.
         </div>
       </div>
 
