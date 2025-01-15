@@ -7,21 +7,19 @@ export function Nav() {
         <Link href="/" className="font-bold text-2xl">
           Brooklyn Montgomery
         </Link>
-        <div className="flex">
-          <div className="flex-row space-x-6 sm:space-x-12">
-            <Link
-              className="hover:text-white transition-colors ease-in-out font-thin"
-              href="/"
-            >
-              Home
-            </Link>
-            <Link
-              className="hover:text-white transition-colors ease-in-out font-thin"
-              href="/portfolio"
-            >
-              Mapping Portfolio
-            </Link>
-          </div>
+        <div className="flex space-x-6 sm:space-x-12">
+          <Link
+            className="hover:text-white transition-colors ease-in-out font-thin"
+            href="/"
+          >
+            Home
+          </Link>
+          <Link
+            className="hover:text-white transition-colors ease-in-out font-thin"
+            href="/portfolio"
+          >
+            Mapping Portfolio
+          </Link>
         </div>
       </nav>
     </div>
