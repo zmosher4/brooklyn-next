@@ -10,12 +10,12 @@ export default function Map5({ id }) {
       <Miro2 />
       <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:my-20 sm:m-4 text-xl">
         This mapping project utilizes a mapping technique laid out by Meghan
-        Kelly in her 2019 article "Mapping Syrian Refugee Border Crossing: A
-        Feminist Approach" to share the varied perspectives of borders related
-        to the Indus Waters Treaty of 1960. The project follows an atlas style
-        map which gives the perspective of India, Pakistan, and the World Bank
-        related to river flow rates across the Indian/Pakistan border. It begins
-        first with an introduction to the method before showing border
+        Kelly in her 2019 article &quot;Mapping Syrian Refugee Border Crossing:
+        A Feminist Approach&quot; to share the varied perspectives of borders
+        related to the Indus Waters Treaty of 1960. The project follows an atlas
+        style map which gives the perspective of India, Pakistan, and the World
+        Bank related to river flow rates across the Indian/Pakistan border. It
+        begins first with an introduction to the method before showing border
         perspectives related to the portion of the treaty giving Pakistan
         control of the Western Rivers, and the then shifts to consider the
         perspectives of the treaty which give control of the Eastern Rivers to

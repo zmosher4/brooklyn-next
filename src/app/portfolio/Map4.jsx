@@ -15,17 +15,18 @@ export default function Map4({ id }) {
       </div>
       <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:my-20 sm:m-4 text-xl">
         This map utilizes the topology mapping technique outlined by Levi
-        Westerveld and Anne Knowles in their 2020 article " Loosening the grid:
-        topology as the basis for a more inclusive GIS" to share the story of a
-        community water management project in Hiwarz Bazar, India. The map
-        follows the story of water access in Hiwarz Bazar and the experience of
-        local farmers whom were forced to migrate for work in Mumbai due to crop
-        loss with rising drought conditions, and their subsequent return to town
-        after successful implementation of a community water project. The map
-        utilizes colors, shading, and quotes to depict the experiences of these
-        farmers prior too, during, and after the projects implementation. It
-        centers the very real and intense experiences of water users in India
-        especially when water plays a central role in economic livelihoods.
+        Westerveld and Anne Knowles in their 2020 article &quot;Loosening the
+        grid: topology as the basis for a more inclusive GIS&quot; to share the
+        story of a community water management project in Hiwarz Bazar, India.
+        The map follows the story of water access in Hiwarz Bazar and the
+        experience of local farmers whom were forced to migrate for work in
+        Mumbai due to crop loss with rising drought conditions, and their
+        subsequent return to town after successful implementation of a community
+        water project. The map utilizes colors, shading, and quotes to depict
+        the experiences of these farmers prior too, during, and after the
+        projects implementation. It centers the very real and intense
+        experiences of water users in India especially when water plays a
+        central role in economic livelihoods.
       </div>
     </div>
   );
