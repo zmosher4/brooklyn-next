@@ -2,13 +2,13 @@ import Image from 'next/image';
 import mapimg2 from '@/assets/mapimg2.webp';
 import mapimg3 from '@/assets/mapimg3.webp';
 
-export default function SketchMaps() {
+export default function SketchMaps({ id }) {
   return (
-    <div className="text-[#30574e]">
+    <div id={id} className="text-[#30574e]">
       <div className="flex items-center justify-center m-8 font-bold text-4xl">
         Sketch Maps
       </div>
-      <div className="flex flex-col lg:flex-row justify-around m-4 font-bold text-xl text-center gap-4">
+      <div className="flex lg:flex-row flex-col justify-around m-4 font-bold text-xl text-center gap-4">
         <div>Sketch Map 1: Mapping Power Relations with Drinking Water</div>
         <div>Sketch Map 2: Hauz Khas Water Project</div>
       </div>
@@ -23,7 +23,7 @@ export default function SketchMaps() {
         />
       </div>
 
-      <div className="flex justify-between sm:m-4 m-16 text-md space-x-48 leading-relaxed">
+      <div className="flex lg:flex-row flex-col  justify-between sm:m-4 m-16 text-md lg:space-x-48 leading-relaxed">
         <div>
           Sketch Map 1 depicts power relations between centralized institutions
           and decentralized experiences which alter drinking water access. To

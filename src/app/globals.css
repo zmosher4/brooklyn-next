@@ -10,6 +10,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #header {
   background-image: url('https://static.wixstatic.com/media/11062b_42c822f0fb664fc686c6ecdb8148b856~mv2.jpg/v1/fill/w_3360,h_1000,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_42c822f0fb664fc686c6ecdb8148b856~mv2.jpg');

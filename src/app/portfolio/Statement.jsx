@@ -1,10 +1,10 @@
-export default function Statement() {
+export default function Statement({ id }) {
   return (
-    <div className="mt-32">
+    <div id={id} className="mt-32">
       <div className="text-[#633761] text-center text-4xl">
         Reflexivity Statement
       </div>
-      <div className="text-start sm:m-4 my-16 mx-44 leading-relaxed text-[#30574e] font-light">
+      <div className="text-start p-8 md:m-16 leading-relaxed text-[#30574e] font-light">
         As an academic researcher born and raised in the United States it is
         critical to reflect on my position in my research related to water
         access in India. An important element is my position as a white woman

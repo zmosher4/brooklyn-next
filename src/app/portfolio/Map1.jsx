@@ -1,9 +1,9 @@
 import mapimg4 from '@/assets/mapimg4.webp';
 import Image from 'next/image';
 
-export default function Map1() {
+export default function Map1({ id }) {
   return (
-    <div className="m-4">
+    <div id={id} className="m-4">
       <div className="text-center text-[#30574e] font-bold text-2xl m-4">
         Map 1: Household Drinking Water Access Compared to Previous and Existing
         World Bank Water Supply Projects in India
@@ -14,7 +14,7 @@ export default function Map1() {
           src={mapimg4}
         />
       </div>
-      <div className="text-[#30574e] font-light leading-relaxed mx-64 my-20 text-xl">
+      <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:my-20 sm:m-4 text-xl">
         This map represents household access to safe drinking water in India
         against the number of World Bank drinking water projects. It operates as
         both an initial introduction to what household drinking water access
