@@ -20,10 +20,11 @@ export default function MapHeader() {
             alt="Mapping Portfolio"
             className="object-cover w-full"
           />
-          <div className="absolute inset-0 flex justify-center items-center text-shadow-md font-bold text-6xl">
+          <div className="absolute inset-0 w-full flex justify-center items-center text-shadow-md font-bold text-6xl text-center">
             Mapping Portfolio
           </div>
         </div>
+
         <div className="relative w-full md:w-[50%] p-8">
           <h3 className="text-[#30574e] text-2xl font-bold">Page Navigation</h3>
           <div className="text-[#30574e] underline underline-offset-2 mt-8">
