@@ -26,7 +26,7 @@ export default function Map5({ id }) {
         rivers and critiques the notion that this treaty has drawn explicit
         peace to the region over river rights.
       </div>
-      <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:mt-20 sm:m-4 text-lg">
+      <div className="text-[#30574e] font-light leading-relaxed md:mx-64 md:mt-20 sm:m-4 text-lg mt-4">
         <span className="font-bold">Dedication: </span>This page and each of the
         five mapping projects presented here are dedicated to Jack, who was
         always a source of inspiration and support in all my academic and

@@ -4,7 +4,7 @@ export default function Miro1() {
       <iframe
         src="https://miro.com/app/embed/uXjVKMZ-S7U=/"
         allowFullScreen
-        className="w-full h-full border-none p-16"
+        className="w-full h-full border-none sm:p-16"
         frameborder="0"
       ></iframe>
     </div>

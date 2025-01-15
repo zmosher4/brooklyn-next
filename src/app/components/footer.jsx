@@ -32,14 +32,14 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="p-16 mr-32">
+    <div className="sm:p-16 sm:mr-32 m-4">
       <div
         ref={fadeInRef}
-        className={`font-thin flex flex-col h-screen items-start  space-y-6 justify-center transition-opacity duration-1000 ${
+        className={`font-thin flex flex-col h-screen items-start space-y-6 justify-center transition-opacity duration-1000 ${
           isVisible ? 'animate-fadeIn' : 'opacity-0'
         }`}
       >
-        <div className="text-xl">BROOKLYN MONTGOMERY</div>
+        <div className="text-lg">BROOKLYN MONTGOMERY</div>
         <div>brmontgo@syr.edu</div>{' '}
         <div>
           {' '}
