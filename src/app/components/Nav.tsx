@@ -4,7 +4,7 @@ export function Nav() {
   return (
     <div className="my-4 mx-6 sm:mx-16 lg:mx-28 text-[#30574e]">
       <nav className="flex items-center justify-between h-20 text-lg">
-        <Link href="/" className="font-bold text-2xl">
+        <Link href="/" className="text-2xl font-bold">
           Brooklyn Montgomery
         </Link>
         <div className="flex space-x-6 sm:space-x-12">
